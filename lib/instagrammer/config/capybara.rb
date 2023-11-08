@@ -2,7 +2,7 @@
 
 require "capybara"
 require "capybara/dsl"
-require "webdrivers/chromedriver"
+require "selenium-webdriver"
 
 Selenium::WebDriver::Chrome.path = ENV["GOOGLE_CHROME_SHIM"] if ENV.has_key?("GOOGLE_CHROME_SHIM")
 
